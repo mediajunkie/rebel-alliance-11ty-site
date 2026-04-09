@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
         statusMessage.className = '';
 
         // Set up the form submission URL
-        const scriptURL = 'https://script.google.com/macros/s/AKfycbwJNLn_YxToyXJLlCTeOUmzX2BEyQQAs98HOGUKFt5KFhsN7DJOCcnfZ6rWnYqRoyPk4Q/exec';
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzS5hXY39Pt6KXKk9qMhno50Q7ib3TA4aetMOGZPf3tEuMqocK9hgA010rLB_WH8TKz/exec';
         
         try {
             const urlWithParams = `${scriptURL}?email=${encodeURIComponent(emailInput.value)}`;
